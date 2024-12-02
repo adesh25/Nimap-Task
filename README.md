@@ -106,7 +106,9 @@ Has a one-to-many relationship with the Product entity.
 Product
 Represents the product entity with fields like id, name, price, and a foreign key categoryId.
 Each product belongs to one category.
-Contact
+
+
+Contact:8177907334
 Author: Adesh Dhumal
 GitHub: adesh25
 Email: adeshd814@gmail.com
