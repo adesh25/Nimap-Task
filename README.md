@@ -1,22 +1,30 @@
 Nimap Machine Test
 
 This project is a Spring Boot application that provides RESTful APIs for managing categories and products, implementing CRUD operations with a relational database. The project uses Spring Data JPA and Hibernate for database interaction and supports server-side pagination.
+
+
 Features
 1.	Category Management:
 o	Create, update, delete, and retrieve categories.
 o	Supports server-side pagination.
-2.	Product Management:
+
+3.	Product Management:
 o	Create, update, delete, and retrieve products.
 o	Products are associated with categories (one-to-many relationship).
 o	Supports server-side pagination.
-3.	One-to-Many Relationship:
+
+
+5.	One-to-Many Relationship:
 o	One category can have multiple products.
 o	Product details include respective category information.
 Technology Stack
+
 •	Backend: Spring Boot
 •	Database: MySQL (or any other RDBMS)
 •	ORM: JPA & Hibernate
 •	Configuration: Annotation-based (no XML)
+
+
 Prerequisites
 •	Java 17 or higher
 •	Maven 3.6+
@@ -67,14 +75,16 @@ o	Body: json Copy code { "name": "Updated Product Name", "price": 1300.00, "cate
 o	Endpoint: DELETE /api/products/{id}
 o	Description: Deletes the product with the specified ID.
 Entity Relationships
+
 •	Category:
 o	Represents the category entity with fields like id and name.
 o	One-to-many relationship with the Product entity.
 •	Product:
 o	Represents the product entity with fields like id, name, price, and a foreign key categoryId.
 o	Each product belongs to one category.
+
 Contact
-•	Author: Pradyumna Nalawade
-•	GitHub: Pradyumna404
-•	Email: pnalawade404@gmail.com
+•	Author: Adesh Dhumal
+•	GitHub:adesh25
+•	Email: adeshd814@gmail.com
 
