@@ -1,5 +1,5 @@
 Nimap Machine Test
-This project is a Spring Boot application that provides RESTful APIs for managing categories and products, implementing CRUD operations with a relational database. The project uses Spring Data JPA and Hibernate for database interaction and supports server-side pagination.
+This project is a Spring Boot application that provides RESTful APIs for managing categories and products. It implements CRUD operations with a relational database using Spring Data JPA and Hibernate. It also supports server-side pagination.
 
 Features
 Category Management
